@@ -58,9 +58,6 @@ export PATH="/usr/local/bin/python3:$PATH"
 
 alias beers='for beers in $(seq 99 1); do beersremaining=$(echo "$beers - 1" | bc); echo -n "$beers beers:"; for j in $(seq 1 $beers); do echo -ne "\xF0\x9f\x8d\xba"; done; say "$beers bottles of beer on the wall $beers bottles of beer. Take one down, pass it around, $beersremaining bottles of beer on the wall"; echo ""; done'
 
-alias cdeecs281='cd "/Users/jollygama/Google Drive/Academics/College/Junior Year/Spring 2018/EECS 281"'
-test -f ~/.git-completion.bash && . $_
-
 # git bash-completion
 if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
   . `brew --prefix`/etc/bash_completion.d/git-completion.bash
