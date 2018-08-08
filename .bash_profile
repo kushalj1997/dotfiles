@@ -58,3 +58,6 @@ alias beers='for beers in $(seq 99 1); do beersremaining=$(echo "$beers - 1" | b
 
 alias cdeecs281='cd "/Users/jollygama/Google Drive/Academics/College/Junior Year/Spring 2018/EECS 281"'
 
+
+# added by Miniconda3 installer
+export PATH="/Users/jollygama/miniconda3/bin:$PATH"
