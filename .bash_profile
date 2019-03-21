@@ -30,7 +30,7 @@ alias smjac='source ~/tools/jupyter/bin/activate'
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 
 # EECS 381 p0 compilation aliasing
-alias g+++="g++ -std=c++14 -pedantic-errors"
+alias g+++="g++ *.cpp -std=c++14 -pedantic-errors -o p0"
 
 # Go to bashrcgenerator.com
 export PS1="\[$(tput bold)\]\[\033[38;5;45m\]\u\[\033[38;5;10m\]@\[\033[38;5;46m\]\h\[\033[38;5;85m\]:\w\[\033[38;5;45m\]\\n\$\[\033[38;5;45m\] "
@@ -66,3 +66,6 @@ fi
 
 # added by Miniconda3 installer
 export PATH="/Users/jollygama/miniconda3/bin:$PATH"
+
+# nano alias for tab width 4 and tabs to spaces
+alias nano="/usr/bin/nano -T 4 -E"
