@@ -29,8 +29,8 @@ alias smjac='source ~/tools/jupyter/bin/activate'
 # Sublime Text
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 
-# EECS 381 p0 compilation aliasing
-alias g+++="g++ *.cpp -std=c++14 -pedantic-errors -o p0"
+# Fast Compile C++ Code in CPP14 standard and pedantic errors
+alias g+++="g++ *.cpp -std=c++14 -pedantic-errors -o out.exe"
 
 # Go to bashrcgenerator.com
 export PS1="\[$(tput bold)\]\[\033[38;5;45m\]\u\[\033[38;5;10m\]@\[\033[38;5;46m\]\h\[\033[38;5;85m\]:\w\[\033[38;5;45m\]\\n\$\[\033[38;5;45m\] "
