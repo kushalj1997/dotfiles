@@ -4,7 +4,7 @@
 # Bin files and commands must be in /usr/local/bin
 
 # Default Path
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"
 
 # Matlab Path Variable
 export MATLAB=/Applications/MATLAB_R2018a.app
